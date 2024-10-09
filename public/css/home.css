@@ -1,0 +1,381 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.container-fluid {
+    background-color: white;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.right {
+    background-color: rgb(170, 205, 238);
+    color: black;
+    width: 90%;
+    max-width: 550px;
+    margin: 30px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+
+.mypara {
+    color: black;
+    font-size: small;
+    padding: 10px;
+}
+
+.myimg1 {
+    margin-left: 200px;
+    height: 423px;
+    animation-name: doctorsgif;
+    position: relative;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+
+@keyframes doctorsgif {
+    from {
+        top: 0;
+        left: 0;
+    }
+
+    to {
+        top: 170px;
+        left: 0;
+    }
+}
+
+
+footer {
+    margin-top: 75px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #5f5a5a;
+    padding-top: 10px;
+}
+
+.appointus {
+    padding: 9px;
+    border-radius: 15px;
+    margin: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.mybtns {
+    margin: 50px;
+    height: 55px;
+    width: 245px;
+    margin-left: 470px;
+    background-color: #f78107;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: 800;
+}
+
+.bookappoint {
+    color: black;
+
+    height: 55px;
+    width: 300px;
+
+    background-color: #f78107;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: 800;
+    text-align: center;
+}
+
+.doctorimg {
+    height: 384px;
+    width: 430px;
+    margin: 33px;
+    position: relative;
+    animation-name: doctorAnimated;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-duration: 4s;
+
+}
+
+@keyframes doctorAnimated {
+    from {
+        top: 0;
+        left: 0;
+    }
+
+    to {
+        top: 0;
+        left: 200px;
+    }
+}
+
+.aboutpara
+{
+    background-color: #78b2b4;
+    /* color: #4f0606; */
+    margin-left: 101px;
+    text-align: center;
+    padding: 36px;
+    border-radius: 57px;
+    margin: -18px;
+  
+}
+.aboutpara:hover
+{
+    background-color: #4f0606;
+    color: #f78107;
+}
+
+.homepara
+{
+    margin: 33px;; font-weight: 500;font-size: small;
+    background-color: #78b2b4;
+    padding: 40px;
+    text-align: center;
+    border-radius: 11px;
+}
+
+
+#l5
+{
+    height: 200px;
+    width: 20px;
+    background-color: #4f0606;
+}
+
+.boxes
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+   
+}
+
+.box1
+{
+    height: 200px;
+    width: 13px;
+    background-color: red;
+    margin: 30px;
+    border: none;
+    outline: none;
+    position: relative;
+    animation: myboxs;
+    border-radius: 10px;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-duration: 4s;
+}
+
+@keyframes myboxs
+{
+    from{
+        top:0 ;
+        left:200px ;
+  }to{
+    top: 175px;
+    left: 100px;
+  }
+}
+
+
+
+
+.box2
+{
+    height: 200px;
+    width: 13px;
+    background-color: gray;
+    margin: 30px;
+    border: none;
+    outline: none;
+    position: relative;
+    animation: myboxsl;
+    border-radius: 10px;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-duration: 4s;
+}
+
+@keyframes myboxsl
+{
+    from{
+        top:0 ;
+        left:200px ;
+  }to{
+    top: 185px;
+    left: 0;
+  }
+}
+
+
+
+.box3
+{
+    height: 200px;
+    width: 13px;
+    background-color: black;
+    margin: 30px;
+    border: none;
+    outline: none;
+    animation: myboxsx;
+    border-radius: 10px;
+    position: relative;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-duration: 4s;
+}
+
+@keyframes myboxsx
+{
+    from{
+        top:0 ;
+        left:200px ;
+  }to{
+    top: 195px;
+    left: 100px;
+  }
+}
+
+
+.box4
+{
+    height: 200px;
+    width: 13px;
+    background-color:yellow;
+    margin: 30px;
+    border: none;
+    outline: none;
+    animation: myboxsy;
+    border-radius: 10px;
+    position: relative;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-duration: 4s;
+}
+
+@keyframes myboxsy
+{
+    from{
+        top:0 ;
+        left:200px ;
+  }to{
+    top: 205px;
+    left: 100px;
+  }
+}
+
+
+
+.box5
+{
+    height: 200px;
+    width: 13px;
+    background-color: blue;
+    margin: 30px;
+    border: none;
+    outline: none;
+    animation: myboxs;
+    border-radius: 10px;
+    position: relative;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-duration: 4s;
+}
+
+@keyframes myboxs
+{
+    from{
+        top:0 ;
+        left:200px ;
+  }to{
+    top: 215px;
+    left: 0;
+  }
+}
+
+
+
+
+
+
+
